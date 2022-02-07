@@ -1,0 +1,29 @@
+
+        #notsupport {
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 10px;
+            margin: 10px;
+            margin-top: 20%;
+            display: none;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(20, 135, 108);
+            height: 300px;
+        }
+
+        #notsupport span {
+            /* margin-top: 10px; */
+            margin-bottom: 30px;
+            border-radius: 10px;
+            /* margin: 20px; */
+            /* margin-top: 20%; */
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: gray;
+            width: 100%;
+        }

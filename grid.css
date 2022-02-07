@@ -1,0 +1,105 @@
+/* *************Grid.css************ */
+
+        /* *********gSecond************* */
+
+        #gsecond {
+            display: none;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 15px;
+            font-size: 12px;
+            margin-top: 7px;
+        }
+
+        #gsecond a {
+            text-decoration: none;
+        }
+
+        #gminmax {
+            font-size: 24px;
+            cursor: pointer;
+
+
+        }
+
+        #gminmax span {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* **********gfiles & Folders of ************ */
+
+        #gthird {
+            display: none;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 50px
+        }
+
+        #gfiles {
+            padding: 10px 20px 10px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            width: 30%;
+            margin: auto;
+        }
+
+        #gfileicon {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: url('https://cdn0.iconfinder.com/data/icons/kuvio-basic-ui/32/folder-512.png');
+            background-position: 0px 0px;
+            background-size: 140px;
+            width: 140px;
+            height: 130px;
+            /* border: 1px solid red; */
+
+        }
+
+        #gfileicon img {
+            width: 0px;
+
+            /* padding-right: 15px; */
+        }
+
+        #ginfo {
+            display: flex;
+            flex-direction: row;
+            cursor: pointer;
+        }
+
+        #gtitle {
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        #gfav {
+            padding-right: 5px;
+            color: rgb(253, 251, 251);
+            font-size: 17px;
+            margin-top: 80px;
+            margin-left: 80px;
+        }
+
+        #gpublic {
+            padding-right: 5px;
+            width: 20px;
+            height: 20px;
+            margin-top: 80px;
+        }
+
+        #gopened {
+            padding-left: 5px;
+        }
+
+        #gmenudots {
+            font-size: 24px;
+            font-weight: bolder;
+            cursor: pointer;
+            color: rgb(62, 62, 62);
+        }
